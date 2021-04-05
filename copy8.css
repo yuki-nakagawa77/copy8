@@ -2,6 +2,14 @@ a {
   text-decoration: none;
 }
 
+li {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+}
+
 
 
 #header {
@@ -24,9 +32,6 @@ a {
   margin-left: 30px;
 }
 
-li {
-  list-style: none;
-}
 
 #header li a {
   color: #24292e;
@@ -36,9 +41,46 @@ li {
   width: 20px;
 }
 
+#mainvisual {
+  margin-bottom: 80px;
+}
+
+#mainvisual img {
+  width: 100%;
+  max-width: 1920px;
+  height: 420px;
+  object-fit: cover;
+}
+
 .wrapper {
   max-width: 960px;
   margin: 0 auto 130px auto;
   font-size: 0.9rem;
   padding: 0 4%;
+}
+
+.sec-title {
+  font-size: 1.5rem;
+  text-align: center;
+  margin-bottom: 65px;
+}
+
+#about ul {
+  margin-bottom: 30px;
+}
+
+#about li:first-child {
+  margin-bottom: 30px;
+}
+
+#works ul {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+}
+
+#works li {
+  width:31%;
+  margin-bottom: 23px;
 }
